@@ -1,4 +1,8 @@
-# React + TypeScript + Vite
+# To-Do List
+
+This web application should allow users to add, update, delete, and view their tasks.
+
+## React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
