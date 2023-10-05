@@ -2,30 +2,31 @@
 
 This web application should allow users to add, update, delete, and view their tasks.
 
-## React + TypeScript + Vite
+link: [https://to-do-list-by-daniel.netlify.app/](https://to-do-list-by-daniel.netlify.app/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# How to use
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Adding Task
 
-## Expanding the ESLint configuration
+<img width="952" alt="Screenshot 2023-10-05 at 4 26 13 PM" src="https://github.com/yukfaihsu/To-Do-List/assets/108306347/0268ceea-6ea9-465a-afa7-aa324c2e37fd">
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Enter the task's title in the textbox provided
 
-- Configure the top-level `parserOptions` property like this:
+2. Click the "Add to the list" button
+  
+3. If the list is empty, "No Todos found" will be shown.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+## Deleting Task
+<img width="675" alt="Screenshot 2023-10-05 at 4 31 02 PM" src="https://github.com/yukfaihsu/To-Do-List/assets/108306347/941674c4-459d-48cb-85fe-d9823a9357df">
+
+1. Click the "Delete" button next to the specific task title
+
+
+
+## Change the task title
+<img width="855" alt="Screenshot 2023-10-05 at 4 33 24 PM" src="https://github.com/yukfaihsu/To-Do-List/assets/108306347/ac98b6ac-d881-4600-9359-798cfdc7d153">
+
+1. Simply click on the task title and the title can be changed.
