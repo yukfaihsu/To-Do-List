@@ -1,0 +1,53 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: flex-start;
+  display: flex;
+}
+
+.header {
+  /* width: 100vw; */
+  /* height: 10vh; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-start;
+  gap: 30px;
+}
+
+.textbox-label {
+  flex: 1;
+}
+
+.textbox {
+  height: 30px;
+}
+
+.noToDo {
+  color: red;
+  font-size: 100px;
+}
+
+.list {
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.list-item {
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.list-text {
+  flex: 10;
+}
+
+.delete {
+  flex: 1;
+  color: red;
+}
